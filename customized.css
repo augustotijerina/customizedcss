@@ -1,0 +1,404 @@
+/* customized.css
+ * easy to use common elements designed to work along with foundation.css
+ * December 2012 - Augusto Tijerina
+ * Nuvems Web Development
+ */
+
+/* Alignment */
+.lefttext {
+    text-align: left;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.righttext {
+    text-align: right;
+}
+
+.floatright {
+    padding: 4px;
+    float: right;
+}
+
+.floatleft {
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 12px;
+    float: left;
+    line-height: 1.3em;
+}
+
+/* Text and Font Styles */
+
+small {
+    -webkit-font-smoothing: antialiased;
+    font-size: 10px;
+}
+
+.redtext {
+    color: red;
+}
+
+.bluetext {
+    color: #00008b;
+}
+
+.whitetext {
+    color: #FFFFFF;
+}
+
+/* Margins*/
+
+.marginleft {
+    margin-left: 10px
+}
+
+.marginright {
+    margin-right: 10px;
+}
+
+.margintop {
+    margin-top: 10px;
+}
+
+.margintopneg {
+    margin-top: -15px;
+}
+
+.marginbottom {
+    margin-bottom: 14px;
+}
+
+/* Horizontal Rulers */
+
+hr.darkbluehr {
+    border: solid #002E60;
+    border-width: 2px 0 0;
+    clear: both;
+    height: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+hr.bluehr {
+    border: solid #002E60;
+    border-width: 2px 0 0;
+    clear: both;
+    height: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+hr.redhr {
+    border: solid #FF0000;
+    border-width: 2px 0 0;
+    clear: both;
+    height: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+hr.cyanhr {
+    border: solid #00ffff;
+    border-width: 2px 0 0;
+    clear: both;
+    height: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+hr.greyhr {
+    border: solid #333;
+    border-width: 2px 0 0;
+    clear: both;
+    height: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+hr.greyhr90 {
+    text-align: center;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #555;
+    border-width: 2px 0 0;
+    clear: both;
+    height: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+hr.whitehr90 {
+    text-align: center;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #FFFFFF;
+    border-width: 2px 0 0;
+    clear: both;
+    height: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+hr.blackhr {
+    text-align: left;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #191919;
+    border-width: 2px 0 0;
+    clear: both;
+    height: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/*
+ * Paneles
+ */
+.bluepanels {
+    padding: 5px 5px 2px 5px;
+    font-size: 22px;
+    color: #084471;
+    background: -moz-linear-gradient(top, #FFFFFF 0%, #F4F4F4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFFFFF), color-stop(100%, #F4F4F4));
+    background: -o-linear-gradient(top, #ffffff 0%, #f4f4f4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#F4F4F4', GradientType=0);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+    margin: 0 0 20px 0;
+}
+
+/* TIJE: New Content */
+.blacktexturized {
+    background: url("http://www.augustotijerina.com/assets/images/blacknoise.png") #343434;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #555555;
+    border-collapse: collapse;
+}
+
+/* *
+ *   -moz-box-shadow: 3px 3px 3px 3px #BBBBBB;
+ *   -webkit-box-shadow: 3px 3px 3px 3px #BBBBBB;
+ *   box-shadow: 3px 3px 3px 3px #BBBBBB;
+ * */
+
+/*
+ * Contenedores
+ */
+
+.whitecontent {
+    background: #FFF;
+    border: 1px solid #BBBBBB;
+    box-shadow: 2px 3px 5px 3px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 2px 3px 5px 3px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 2px 3px 5px 3px rgba(0, 0, 0, 0.25);
+    margin: 0 0 20px 0;
+}
+
+.bluecontent {
+    background: #144565;
+}
+
+.paddingten {
+    padding: 10px;
+}
+
+.noborders {
+    border: 0px transparent;
+    text-decoration: none;
+}
+
+.nopadding {
+    padding: 2px;
+}
+
+.shadowed {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.th {
+    margin: 6px;
+    padding: 6px;
+    background: #f5f5f5;
+}
+
+/** Slideshow**/
+
+#featured .content {
+    background: #FFFFFF;
+    max-height: 280px;
+    height: 220px;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+
+#featured .content h1 {
+    font-family: 'Ubuntu', 'Calibri', sans-serif;
+    color: #2f260f;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #f8f0d1, 2px 2px 0 #f8f0d1, 3px 3px 0 #1a5774;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#featured .content h3 {
+    font-family: 'Ubuntu', 'Calibri', sans-serif;
+    color: #7f6b37;
+    font-weight: bold !important;
+    text-align: center;
+}
+
+#featured {
+    background: url("http://www.augustotijerina.com/assets/images/loader1.gif") no-repeat center center #FFFFFF;
+    min-height: 120px;
+    margin-bottom: 3px;
+    border: 1px solid #CDCDCD;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+#featured.orbit {
+    height: auto;
+}
+
+#featured img, #featured div {
+    display: none;
+}
+
+#featured.orbit img, #featured.orbit div {
+    display: block;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+
+    #featured {
+        height: 165px;
+    }
+
+    #featured.orbit {
+        height: auto;
+    }
+
+    dl.nice.tabs.mobile {
+        margin-bottom: 0px;
+    }
+
+    .nice.tabs.mobile dd a {
+        padding: 12px 20px;
+    }
+
+    div.foundation-header h1 {
+        font-size: 32px;
+        font-size: 3.2rem;
+    }
+
+    div.slider-nav span {
+        height: 50px;
+        width: 39px;
+        background-size: 100% auto;
+        margin-top: -25px;
+    }
+}
+
+/*
+ * Enhanced fonts:
+ * */
+
+.oswalded {
+    font-family: "Oswald", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Botones */
+/* Gradiente Vertical*/
+
+.wpcf7-submit {
+    width: auto;
+    background: #2ba6cb;
+    border: 1px solid #1e728c;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+    outline: none;
+    padding: 10px 20px 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: background-color 0.15s ease-in-out;
+    -moz-transition: background-color 0.15s ease-in-out;
+    -o-transition: background-color 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out;
+
+}
+
+.attachment-wpf-featured {
+    float: right;
+    padding: 10px;
+    border: 0px transparent;
+    text-decoration: none;
+}
+
+.botongradazul {
+    -moz-box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+    box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5));
+    background: -moz-linear-gradient(center top, #79bbff 5%, #378de5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+    background-color: #79bbff;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    border: 1px solid #84bbf3;
+    display: inline-block;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #528ecc;
+}
+
+.botongradazul:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff));
+    background: -moz-linear-gradient(center top, #378de5 5%, #79bbff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+    background-color: #378de5;
+}
+
+.botongradazul:active {
+    position: relative;
+    top: 1px;
+}
+
